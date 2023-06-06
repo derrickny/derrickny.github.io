@@ -4,25 +4,25 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  pytorch,
   html,
   css,
-  reactjs,
-  redux,
+  django,
+  python,
   tailwind,
   nodejs,
-  mongodb,
+  flask,
+  tensorflow,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  naivas,
+  intercity,
   carrent,
   jobit,
+  tableau,
   tripguide,
-  threejs,
+  jupyter,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Machine Learning Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Data Analyst",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "IT Support Specialist",
     icon: creator,
   },
 ];
@@ -65,24 +65,28 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "django",
+    icon: django,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Pytorch",
+    icon: pytorch,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Jupyter",
+    icon: jupyter,
+  },
+  {
+    name: "Tensorflow",
+    icon: tensorflow,
+  },
+  {
+    name: "Tableau",
+    icon: tableau,
   },
   {
     name: "Tailwind CSS",
@@ -93,20 +97,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Flask",
+    icon: flask,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,55 +116,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "IT Support Specialist",
+    company_name: "Intercity Secure Homes Ltd",
+    icon: intercity,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Part time",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining company web application.",
+      "Managing hosting services for the company.",
+      "offering Technical support.",
+      "Creation of company posters and managing social media platforms.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "ICT OPs",
+    company_name: "Naivas",
+    icon: naivas,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Februray 2023 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Offered hardware and software Support .",
+      "Data Entry.",
+      "Networking.",
     ],
   },
 ];
@@ -172,27 +145,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Derrick, ability to understand technical problems and solve them is top tier thanks to him we were able to shorten timetaken to dealing with software and  hadware issues",
+    name: "Eunice Nduta",
+    designation: "Head ICT Ops",
+    company: "Naivas",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met an IT Support Specialist that cares for employees such as Derrick Does ",
+    name: "Franics Ngari",
+    designation: "CIO",
+    company: "Naivas",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Derrick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Vincent Mutuiri",
+    designation: "Technical Officer ",
+    company: "Intercity Secure homes ltd",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
 
